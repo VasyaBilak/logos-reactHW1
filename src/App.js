@@ -1,24 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import CharacterPropsComponent from './CharacterPropsComponent';
+import {character1, character2, character3, character4, character5, myCharacter1, myCharacter2, myCharacter3, myCharacter4, myCharacter5, myCharacter6, myCharacter7, myCharacter8, myCharacter9, myCharacter10}  from './characters';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CharacterPropsComponent character={character1} />
   );
 }
 
